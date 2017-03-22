@@ -1,9 +1,10 @@
+import * as Preact from 'preact';
 import React from 'react';
 import { formatPrice } from '../helpers'
 
 
 
-class Fish extends React.Component {
+class Fish extends Preact.Component {
 	render() { 
 
 		const {details, index} = this.props;
@@ -30,10 +31,10 @@ class Fish extends React.Component {
 	}
 }
 
-Fish.propTypes = {
-	details: React.PropTypes.object.isRequired,
-	addToOrder: React.PropTypes.func.isRequired,
-	index: React.PropTypes.string.isRequired,
-}
+// Fish.propTypes = {
+// 	details: React.PropTypes.object.isRequired,
+// 	addToOrder: React.PropTypes.func.isRequired,
+// 	index: React.PropTypes.string.isRequired,
+// }
 
 export default Fish; 

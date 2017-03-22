@@ -1,6 +1,7 @@
 // let's go!
+import * as Preact from 'preact';
 import React from 'react';
-import { render } from 'react-dom';
+//import { render } from 'react-dom';
 import { BrowserRouter, Match, Miss } from 'react-router';
 
 import './css/style.css';
@@ -22,5 +23,5 @@ const Root = () => {
 } 
 
 
-render(<Root />, document.getElementById('main')); 
+Preact.render(<Root />, document.getElementById('main')); 
 

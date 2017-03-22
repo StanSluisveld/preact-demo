@@ -1,3 +1,4 @@
+
 import React from 'react';
 
 const Header = (props) => {
@@ -16,9 +17,9 @@ const Header = (props) => {
 		)
 }
 
-Header.propTypes ={
-	tagline: React.PropTypes.string
-}
+// Header.propTypes ={
+// 	tagline: React.PropTypes.string
+// }
 
 
 export default Header;   

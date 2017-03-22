@@ -1,3 +1,4 @@
+import * as Preact from 'preact';
 import React from 'react';
 import Header from './Header';
 import Order from './Order';
@@ -6,7 +7,7 @@ import Fish from './Fish';
 import sampleFishes from '../sample-fishes';
 import base from '../base';
 
-class App extends React.Component {
+class App extends Preact.Component {
 	
 	constructor() {
 		super();
@@ -138,8 +139,5 @@ class App extends React.Component {
 	}
 }
 
-App.propTypes = {
-	params: React.PropTypes.object.isRequired
-}
 
 export default App;

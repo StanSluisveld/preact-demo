@@ -1,7 +1,8 @@
+import * as Preact from 'preact';
 import React from 'react';
 import AddFishForm from './AddFishForm';
 
-class Inventory extends React.Component{
+class Inventory extends Preact.Component{
 
 	constructor() {
 		super();
@@ -52,12 +53,12 @@ class Inventory extends React.Component{
 	}
 }
 
-Inventory.propTypes = {
-	fishes: React.PropTypes.object.isRequired,
-	updateFish: React.PropTypes.func.isRequired,
-	removeFish: React.PropTypes.func.isRequired,
-	addFish: React.PropTypes.func.isRequired,
-	loadSamples: React.PropTypes.func.isRequired, 
-}
+// Inventory.propTypes = {
+// 	fishes: React.PropTypes.object.isRequired,
+// 	updateFish: React.PropTypes.func.isRequired,
+// 	removeFish: React.PropTypes.func.isRequired,
+// 	addFish: React.PropTypes.func.isRequired,
+// 	loadSamples: React.PropTypes.func.isRequired, 
+// }
 
 export default Inventory; 
