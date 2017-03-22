@@ -18,7 +18,7 @@ class Inventory extends React.Component{
 		}
 		this.props.updateFish(key, updatedFish)
 		
-	}
+	}  
 	
 	renderInventory(key){	
 		
