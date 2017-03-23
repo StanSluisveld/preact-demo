@@ -1,5 +1,5 @@
+import { h, Component } from "preact";
 import * as Preact from 'preact';
-import React from 'react';
 import { formatPrice } from '../helpers'
 
 class Order extends Preact.Component{

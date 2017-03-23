@@ -1,5 +1,5 @@
+import { h, Component } from "preact";
 
-import React from 'react';
 
 const Header = (props) => {
 		return (

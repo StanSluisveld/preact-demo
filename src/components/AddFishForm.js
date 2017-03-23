@@ -1,6 +1,5 @@
-
+/* eslint-disable */
 import { h, Component } from "preact";
-//import React from 'react';
 
 
 
