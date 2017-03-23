@@ -1,8 +1,7 @@
 import { h, Component } from "preact";
-import * as Preact from 'preact';
 import AddFishForm from './AddFishForm';
 
-class Inventory extends Preact.Component{
+class Inventory extends Component{
 
 	constructor() {
 		super();

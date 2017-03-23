@@ -1,8 +1,7 @@
 import { h, Component } from "preact";
-import * as Preact from 'preact';
 import React from 'react';
 
-class NotFound extends Preact.Component{
+class NotFound extends Component{
 	render() {
 		return (
 			<h1>Not Found</h1>

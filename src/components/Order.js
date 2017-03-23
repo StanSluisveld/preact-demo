@@ -1,8 +1,7 @@
 import { h, Component } from "preact";
-import * as Preact from 'preact';
 import { formatPrice } from '../helpers'
 
-class Order extends Preact.Component{
+class Order extends Component{
 
 	constructor() {
 		super();

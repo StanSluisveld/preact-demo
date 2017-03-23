@@ -1,9 +1,8 @@
 import { h, Component } from "preact";
-import * as Preact from 'preact';
 import { getStoreName } from '../helpers';
 
 
-class StorePicker extends Preact.Component {
+class StorePicker extends Component {
 
 	// constructor() {
 	// 	super();

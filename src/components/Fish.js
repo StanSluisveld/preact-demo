@@ -1,10 +1,9 @@
 import { h, Component } from "preact";
-import * as Preact from 'preact';
 import { formatPrice } from '../helpers'
 
 
 
-class Fish extends Preact.Component {
+class Fish extends Component {
 	render() { 
 
 		const {details, index} = this.props;

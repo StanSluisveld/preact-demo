@@ -1,5 +1,4 @@
 import { h, Component } from "preact";
-import * as Preact from 'preact';
 import Header from './Header';
 import Order from './Order';
 import Inventory from './Inventory';
@@ -7,7 +6,7 @@ import Fish from './Fish';
 import sampleFishes from '../sample-fishes';
 import base from '../base';
 
-class App extends Preact.Component {
+class App extends Component {
 	
 	constructor() {
 		super();
@@ -130,10 +129,7 @@ class App extends Preact.Component {
 				addFish={this.addFish} 
 				removeFish={this.removeFish}
 				fishes={this.state.fishes} 
-				updateFish={this.updateFish} />
-				
-				
-				
+				updateFish={this.updateFish} />		
 			</div>
 			)
 	}

@@ -1,6 +1,5 @@
 import { h, Component } from "preact";
 
-
 const Header = (props) => {
 		return (
 			<header className='top'>
