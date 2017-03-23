@@ -1,5 +1,5 @@
+import { h, Component } from "preact";
 import * as Preact from 'preact';
-import React from 'react';
 import Header from './Header';
 import Order from './Order';
 import Inventory from './Inventory';

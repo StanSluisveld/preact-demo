@@ -1,6 +1,6 @@
 // let's go!
+import { h, Component } from "preact";
 import * as Preact from 'preact';
-import React from 'react';
 //import { render } from 'react-dom';
 import { BrowserRouter, Match, Miss } from 'react-router';
 
