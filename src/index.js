@@ -10,15 +10,16 @@ import NotFound from './components/NotFound';
 
 const Root = () => {
 	return (
-		<BrowserRouter basename="/catch">
+		<BrowserRouter basename="/catch-preact">
 			<div>
 				<Match exactly pattern="/" component={StorePicker} />
 				<Match exactly pattern="/store/:storeId" component={App} />
 				<Miss component={NotFound} />
 			</div>
-		</BrowserRouter> 
+		</BrowserRouter>
 		)
-} 
+}
+
 
 
 render(<Root />, document.getElementById('main')); 
