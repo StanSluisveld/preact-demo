@@ -1,7 +1,5 @@
 // let's go!
-import { h, Component } from "preact";
-import * as Preact from 'preact';
-//import { render } from 'react-dom';
+import { h, Component, render } from "preact";
 import { BrowserRouter, Match, Miss } from 'react-router';
 
 import './css/style.css';
@@ -18,10 +16,10 @@ const Root = () => {
 				<Match exactly pattern="/store/:storeId" component={App} />
 				<Miss component={NotFound} />
 			</div>
-		</BrowserRouter>
+		</BrowserRouter> 
 		)
 } 
 
 
-Preact.render(<Root />, document.getElementById('main')); 
+render(<Root />, document.getElementById('main')); 
 

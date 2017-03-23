@@ -41,6 +41,8 @@
     "object-assign": "4.1.0",
     "path-exists": "2.1.0",
     "postcss-loader": "0.13.0",
+    "preact-async-route": "^1.0.3",
+    "preact-router": "^2.4.1",
     "promise": "7.1.1",
     "react-dev-utils": "^0.2.1",
     "recursive-readdir": "2.1.0",
@@ -97,7 +99,12 @@
       "react-app"
     ],
     "plugins": [
-    ["transform-react-jsx", { "pragma": "h" }]
-  ]
+      [
+        "transform-react-jsx",
+        {
+          "pragma": "h"
+        }
+      ]
+    ]
   }
 }
