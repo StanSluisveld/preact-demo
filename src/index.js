@@ -1,7 +1,6 @@
 // let's go!
-import { h, Component } from "preact";
+import { h, Component, render } from "preact";
 import { BrowserRouter, Match, Miss } from 'react-router';
-import { render } from 'react-dom'; 
 
 import './css/style.css';
 import App from './components/App';
