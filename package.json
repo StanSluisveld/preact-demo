@@ -44,6 +44,7 @@
     "preact-async-route": "^1.0.3",
     "preact-router": "^2.4.1",
     "promise": "7.1.1",
+    "react-addons-perf": "^15.4.2",
     "react-dev-utils": "^0.2.1",
     "recursive-readdir": "2.1.0",
     "rimraf": "2.5.4",
@@ -62,7 +63,7 @@
     "re-base": "2.2.0",
     "react": "15.3.2",
     "react-addons-css-transition-group": "15.3.2",
-    "react-dom": "15.3.2",
+    "react-dom": "15.4.2",
     "react-router": "4.0.0-alpha.4"
   },
   "scripts": {
