@@ -1,7 +1,9 @@
-import React from 'react';
+/* eslint-disable */
+import { h, Component } from "preact";
 
 
-class AddFishForm extends React.Component{
+
+class AddFishForm extends Component{
 
 	createFish(event) {
 		event.preventDefault();
@@ -34,9 +36,6 @@ class AddFishForm extends React.Component{
 	}
 }
 
-AddFishForm.propTypes ={
-	addFish: React.PropTypes.func.isRequired
-}
 
 
 

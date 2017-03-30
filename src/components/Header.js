@@ -1,4 +1,4 @@
-import React from 'react';
+import { h, Component } from "preact";
 
 const Header = (props) => {
 		return (
@@ -16,9 +16,9 @@ const Header = (props) => {
 		)
 }
 
-Header.propTypes ={
-	tagline: React.PropTypes.string
-}
+// Header.propTypes ={
+// 	tagline: React.PropTypes.string
+// }
 
 
 export default Header;   

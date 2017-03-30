@@ -1,4 +1,4 @@
-import React from 'react';
+import { h, Component } from "preact";
 import Header from './Header';
 import Order from './Order';
 import Inventory from './Inventory';
@@ -6,7 +6,9 @@ import Fish from './Fish';
 import sampleFishes from '../sample-fishes';
 import base from '../base';
 
-class App extends React.Component {
+
+
+class App extends Component {
 	
 	constructor() {
 		super();
@@ -60,6 +62,7 @@ class App extends React.Component {
 	}
 
 	addFish(fish) {
+		
 		// this.state.fishes.fhish1 = fish;			also a possability 
 		// update state
 		const fishes = {...this.state.fishes};
@@ -86,7 +89,7 @@ class App extends React.Component {
 
 
 
-	loadSamples() { 
+	loadSamples() { 	
 		this.setState({
 			fishes: sampleFishes 
 		})
@@ -129,17 +132,11 @@ class App extends React.Component {
 				addFish={this.addFish} 
 				removeFish={this.removeFish}
 				fishes={this.state.fishes} 
-				updateFish={this.updateFish} />
-				
-				
-				
+				updateFish={this.updateFish} />		
 			</div>
 			)
 	}
 }
 
-App.propTypes = {
-	params: React.PropTypes.object.isRequired
-}
 
 export default App;

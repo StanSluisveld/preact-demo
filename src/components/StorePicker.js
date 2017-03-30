@@ -1,8 +1,8 @@
-import React from 'react';
+import { h, Component } from "preact";
 import { getStoreName } from '../helpers';
 
 
-class StorePicker extends React.Component {
+class StorePicker extends Component {
 
 	// constructor() {
 	// 	super();
@@ -33,8 +33,8 @@ class StorePicker extends React.Component {
 	}
 }
 
-StorePicker.contextTypes = {
-	router: React.PropTypes.object
-}
+// StorePicker.contextTypes = {
+// 	router: React.PropTypes.object
+// }
 
 export default StorePicker;

@@ -1,7 +1,7 @@
-import React from 'react';
+import { h, Component } from "preact";
 import { formatPrice } from '../helpers'
 
-class Order extends React.Component{
+class Order extends Component{
 
 	constructor() {
 		super();
@@ -54,10 +54,10 @@ class Order extends React.Component{
 	}
 }
 
-Order.propTypes = {
-	fishes: React.PropTypes.object.isRequired,
-	order: React.PropTypes.object.isRequired,
-	removeFromOrder: React.PropTypes.func.isRequired,
-}
+// Order.propTypes = {
+// 	fishes: React.PropTypes.object.isRequired,
+// 	order: React.PropTypes.object.isRequired,
+// 	removeFromOrder: React.PropTypes.func.isRequired,
+// }
 
 export default Order; 
